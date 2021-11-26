@@ -1,0 +1,153 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/index_style.css" />
+</head>
+
+<body>
+  <header class="vh-100 d-flex flex-wrap align-items-start justify-content-center position-relative">
+
+    <nav class="navbar navbar-expand-sm  fixed-top w-100  navbar-dark bg-rgb">
+      <a class="navbar-brand" href="#">RECIPE</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link">salad</a>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link">pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">beef</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">onion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">apple</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">ketchup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">sushi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">potato</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="h-100 d-flex align-items-center justify-content-center">
+      <h1 class="w-100 text-white font-weight-bolder text-center">
+        Never Miss a Recipe!
+      </h1>
+    </div>
+
+    <div class="searchInput position-absolute w-75 m-auto p-5">
+      <div class="row no-gutters">
+        <div class="col-md-10">
+          <input id="searchInput" placeholder="search recipes" class="form-control" type="text" />
+        </div>
+        <div class="col-md-2">
+          <button id="searchBtn" class="btn btn-block text-white btn-mine">
+            search
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section id="recipesSearch" class="text-center py-5">
+    <div class="container-fluid py-5">
+      <h2>Recipe Categories</h2>
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit,<br />
+        sed tincidunt ut laoreet dolore magna aliquam erat volutpat lorem
+      </p>
+
+      <div class="row my-5">
+        <div class="col-md-3">
+          <div class="category">
+            <h3 class="font-weight-bolder">Meal Type</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="category">
+            <h3 class="font-weight-bolder">Diet & Health</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="category">
+            <h3 class="font-weight-bolder">Ingredient</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="category">
+            <h3 class="font-weight-bolder">Dish Type</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-left">
+
+
+      <div class="row" id="rowData">
+        
+
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <div class="modal fade" id="mitso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Recipe</h5>
+        </div>
+
+
+        <div id="recipe" class="modal-body">
+
+        </div>
+
+
+
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
